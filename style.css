@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@200&family=Raleway:wght@600&family=Righteous&family=Roboto:wght@300;900&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@200&family=Raleway:wght@600&family=Righteous&family=Roboto:wght@300;900&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*#FFD700 amarelo 	#9370DB roxo*/
+
+/*------------------HEADER-------------------------*/
+.container-header{
+    width: 100%;
+    height: 15vh;
+    background-color:#9370DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-header{
+    width: 25%;
+    height: 8vh;
+  /*  background-color: aliceblue; */
+    padding-top: 15px;
+}
+
+.ul-header{
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+}
+
+.ul-header a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-size: 0.75em;
+}
+
+.ul-header a:hover{
+    color:#FFD700;
+}
+
+.texto-principal{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+
+/*------------------MAIN-----------------------------*/
+
+/*------------------SECTION 1-------------------------*/
+
+.container-imagem-ava{
+    width: 100%;
+    height: 50vh;
+  /*  background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-imagem-ava{
+    width: 18%;
+    height: 45vh;
+}
+
+.imagem-ava{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*---------------------SECTION 2 ----------------------------*/
+
+.container-biografia{
+    width: 100%;
+    height: 50vh;
+    background-color: #9370DB;
+}
+
+.introducao-biografia{
+    width: 80%;
+    height: 5vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.80em;
+    /* background-color: wheat; */
+}
+
+.caixa-biografia{
+    width: 80%;
+    height: 45vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+/*------------------------SECTION 3 ----------------------*/
+
+.container-trabalhos{
+    width: 100%;
+    height: 60vh;
+    /* background-color: violet; */
+}
+
+.introducao-trabalhos{
+    width: 80%;
+    height: 5vh;
+    color: #FFA500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.80em;
+}
+
+.caixa-trabalhos{
+    width: 80%;
+    height: 45vh;
+    color:	#FFA500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75;
+    margin: auto;
+    position: relative;
+    top: 8%;
+}
+
+/*--------------------------SECTION 4 -----------------------*/
+
+.container-legado{
+    width: 100%;
+    height: 50vh;
+    background-color:#9370DB;
+}
+
+.introducao-legado{
+    width: 80%;
+    height: 5vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.80em;
+}
+
+.caixa-legado{
+    width: 80%;
+    height: 45vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+/*-------------------------FOOTER----------------------------*/
+
+.container-footer{
+    width: 100;
+    height: 10vh;
+    background-color:#f8af26d5;
+    color: white;
+    font-size: 0.75em;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.paragrafo-footer{
+    margin-left: 10%;
+}
